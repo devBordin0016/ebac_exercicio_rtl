@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import Post from './index';
 
 describe('Post Component', () => {
-    const imageUrl = 'http://example.com/image.jpg';
+    const imageUrl = 'https://acdn.mitiendanube.com/stores/430/263/products/1-32-batmovel-1966_011-a4f7118de5fcd5c95916789845019917-1024-1024.png';
     const postText = 'This is a test post';
 
     test('renders post with image and text', () => {
